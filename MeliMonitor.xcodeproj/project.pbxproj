@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10757BCC20587C87007623FD /* Launch.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10757BCB20587C87007623FD /* Launch.storyboard */; };
+		10894A831F86C41C00F30A2C /* Amaranth-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 10894A821F86C41C00F30A2C /* Amaranth-Bold.otf */; };
+		10E1DB2C1F84106F001CDB18 /* MLAuthPickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E1DB2A1F84106F001CDB18 /* MLAuthPickerViewController.swift */; };
+		10E1DB2D1F84106F001CDB18 /* MLAuthPickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10E1DB2B1F84106F001CDB18 /* MLAuthPickerViewController.xib */; };
+		10FD8FD71F7E840800BCB991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10FD8FD61F7E840800BCB991 /* AppDelegate.swift */; };
+		10FD8FDE1F7E840800BCB991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10FD8FDC1F7E840800BCB991 /* Main.storyboard */; };
+		10FD8FE01F7E840800BCB991 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10FD8FDF1F7E840800BCB991 /* Assets.xcassets */; };
+		21562E2A0F682365D7036818 /* Pods_MeliMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BCC7D76318C1CD28CB35B8 /* Pods_MeliMonitor.framework */; };
+		9C119B5820BFAB7C00DA7264 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C119B5720BFAB7C00DA7264 /* GoogleService-Info.plist */; };
+		9C119B5A20C070C800DA7264 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9C119B5920C070C700DA7264 /* credentials.plist */; };
+		9C3AB0BB20C8BBE600761CA7 /* Synchronizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AB0BA20C8BBE600761CA7 /* Synchronizer.swift */; };
+		9C3AB0BD20C8BE1A00761CA7 /* ApiHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AB0BC20C8BE1A00761CA7 /* ApiHelper.swift */; };
+		9C3AB0BF20CA03F700761CA7 /* gradientButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AB0BE20CA03F700761CA7 /* gradientButtonExtension.swift */; };
+		9C3AB0C120CA07B300761CA7 /* hexColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3AB0C020CA07B300761CA7 /* hexColorExtension.swift */; };
+		9C9760EB20E53E7600B12808 /* UIImage+Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C9760EA20E53E7600B12808 /* UIImage+Circle.swift */; };
+		9CBABDB320C70A1B0076CA3F /* HotItemsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDA720C70A180076CA3F /* HotItemsCollectionViewController.swift */; };
+		9CBABDB420C70A1B0076CA3F /* VipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDA820C70A190076CA3F /* VipViewController.swift */; };
+		9CBABDB620C70A1B0076CA3F /* MyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDAA20C70A190076CA3F /* MyListViewController.swift */; };
+		9CBABDB720C70A1B0076CA3F /* ImageLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDAB20C70A190076CA3F /* ImageLoad.swift */; };
+		9CBABDB820C70A1B0076CA3F /* HotItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDAC20C70A1A0076CA3F /* HotItemCollectionViewCell.swift */; };
+		9CBABDB920C70A1B0076CA3F /* MyListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDAD20C70A1A0076CA3F /* MyListTableViewCell.swift */; };
+		9CBABDBB20C70A1B0076CA3F /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDAF20C70A1A0076CA3F /* WebViewController.swift */; };
+		9CBABDBC20C70A1B0076CA3F /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDB020C70A1B0076CA3F /* ListTableViewCell.swift */; };
+		9CBABDBD20C70A1B0076CA3F /* MrMainSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDB120C70A1B0076CA3F /* MrMainSearchViewController.swift */; };
+		9CBABDBF20C70B930076CA3F /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDBE20C70B930076CA3F /* Item.swift */; };
+		9CBABDC120C70B960076CA3F /* MLResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CBABDC020C70B950076CA3F /* MLResponse.swift */; };
+		9CE20FA120DFEBA40086A685 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FA020DFEBA40086A685 /* FilterViewController.swift */; };
+		9CE20FA520E251FF0086A685 /* Filters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FA420E251FF0086A685 /* Filters.swift */; };
+		9CE20FA720E2522A0086A685 /* FilterValue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FA620E2522A0086A685 /* FilterValue.swift */; };
+		9CE20FA920E401A20086A685 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FA820E401A20086A685 /* FilterCell.swift */; };
+		9CE20FAB20E414E60086A685 /* FilterValueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FAA20E414E60086A685 /* FilterValueCell.swift */; };
+		9CE20FAD20E455A30086A685 /* ActualFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FAC20E455A30086A685 /* ActualFilters.swift */; };
+		9CE20FAF20E4612F0086A685 /* ActiveFilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE20FAE20E4612F0086A685 /* ActiveFilterCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		00BCC7D76318C1CD28CB35B8 /* Pods_MeliMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MeliMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0382790E189F86B0DADD30FB /* Pods-MeliMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		10757BCB20587C87007623FD /* Launch.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launch.storyboard; sourceTree = "<group>"; };
+		10894A821F86C41C00F30A2C /* Amaranth-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Amaranth-Bold.otf"; sourceTree = "<group>"; };
+		10E1DB2A1F84106F001CDB18 /* MLAuthPickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MLAuthPickerViewController.swift; sourceTree = "<group>"; };
+		10E1DB2B1F84106F001CDB18 /* MLAuthPickerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MLAuthPickerViewController.xib; sourceTree = "<group>"; };
+		10FD8FD31F7E840800BCB991 /* MeliMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeliMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10FD8FD61F7E840800BCB991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10FD8FDD1F7E840800BCB991 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		10FD8FDF1F7E840800BCB991 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10FD8FE41F7E840800BCB991 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AB26A905C095A0F84D7854C /* Pods-MeliMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeliMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		9C119B5720BFAB7C00DA7264 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9C119B5920C070C700DA7264 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		9C3AB0BA20C8BBE600761CA7 /* Synchronizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Synchronizer.swift; sourceTree = "<group>"; };
+		9C3AB0BC20C8BE1A00761CA7 /* ApiHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiHelper.swift; sourceTree = "<group>"; };
+		9C3AB0BE20CA03F700761CA7 /* gradientButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradientButtonExtension.swift; sourceTree = "<group>"; };
+		9C3AB0C020CA07B300761CA7 /* hexColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexColorExtension.swift; sourceTree = "<group>"; };
+		9C9760EA20E53E7600B12808 /* UIImage+Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Circle.swift"; sourceTree = "<group>"; };
+		9CBABDA720C70A180076CA3F /* HotItemsCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotItemsCollectionViewController.swift; sourceTree = "<group>"; };
+		9CBABDA820C70A190076CA3F /* VipViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VipViewController.swift; sourceTree = "<group>"; };
+		9CBABDAA20C70A190076CA3F /* MyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListViewController.swift; sourceTree = "<group>"; };
+		9CBABDAB20C70A190076CA3F /* ImageLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoad.swift; sourceTree = "<group>"; };
+		9CBABDAC20C70A1A0076CA3F /* HotItemCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		9CBABDAD20C70A1A0076CA3F /* MyListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyListTableViewCell.swift; sourceTree = "<group>"; };
+		9CBABDAF20C70A1A0076CA3F /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9CBABDB020C70A1B0076CA3F /* ListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		9CBABDB120C70A1B0076CA3F /* MrMainSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MrMainSearchViewController.swift; sourceTree = "<group>"; };
+		9CBABDBE20C70B930076CA3F /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		9CBABDC020C70B950076CA3F /* MLResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MLResponse.swift; sourceTree = "<group>"; };
+		9CE20FA020DFEBA40086A685 /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		9CE20FA420E251FF0086A685 /* Filters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Filters.swift; sourceTree = "<group>"; };
+		9CE20FA620E2522A0086A685 /* FilterValue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValue.swift; sourceTree = "<group>"; };
+		9CE20FA820E401A20086A685 /* FilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		9CE20FAA20E414E60086A685 /* FilterValueCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterValueCell.swift; sourceTree = "<group>"; };
+		9CE20FAC20E455A30086A685 /* ActualFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActualFilters.swift; sourceTree = "<group>"; };
+		9CE20FAE20E4612F0086A685 /* ActiveFilterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveFilterCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10FD8FD01F7E840800BCB991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21562E2A0F682365D7036818 /* Pods_MeliMonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04C2887A3FB1A04380C307F7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0382790E189F86B0DADD30FB /* Pods-MeliMonitor.debug.xcconfig */,
+				3AB26A905C095A0F84D7854C /* Pods-MeliMonitor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		10FD8FCA1F7E840800BCB991 = {
+			isa = PBXGroup;
+			children = (
+				9C119B5920C070C700DA7264 /* credentials.plist */,
+				9C119B5720BFAB7C00DA7264 /* GoogleService-Info.plist */,
+				10FD8FD51F7E840800BCB991 /* MeliMonitor */,
+				10FD8FD41F7E840800BCB991 /* Products */,
+				04C2887A3FB1A04380C307F7 /* Pods */,
+				EA4C05DDCFC0F51ABDFFA28A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		10FD8FD41F7E840800BCB991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10FD8FD31F7E840800BCB991 /* MeliMonitor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10FD8FD51F7E840800BCB991 /* MeliMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9C9760EA20E53E7600B12808 /* UIImage+Circle.swift */,
+				9CBABDB120C70A1B0076CA3F /* MrMainSearchViewController.swift */,
+				9CBABDC020C70B950076CA3F /* MLResponse.swift */,
+				9CBABDBE20C70B930076CA3F /* Item.swift */,
+				9CBABDAC20C70A1A0076CA3F /* HotItemCollectionViewCell.swift */,
+				9CBABDA720C70A180076CA3F /* HotItemsCollectionViewController.swift */,
+				9CBABDAB20C70A190076CA3F /* ImageLoad.swift */,
+				9CBABDB020C70A1B0076CA3F /* ListTableViewCell.swift */,
+				9CBABDAD20C70A1A0076CA3F /* MyListTableViewCell.swift */,
+				9CBABDAA20C70A190076CA3F /* MyListViewController.swift */,
+				9CBABDA820C70A190076CA3F /* VipViewController.swift */,
+				9CBABDAF20C70A1A0076CA3F /* WebViewController.swift */,
+				10FD8FD61F7E840800BCB991 /* AppDelegate.swift */,
+				10E1DB2A1F84106F001CDB18 /* MLAuthPickerViewController.swift */,
+				10FD8FDC1F7E840800BCB991 /* Main.storyboard */,
+				10894A821F86C41C00F30A2C /* Amaranth-Bold.otf */,
+				10FD8FDF1F7E840800BCB991 /* Assets.xcassets */,
+				10FD8FE41F7E840800BCB991 /* Info.plist */,
+				10E1DB2B1F84106F001CDB18 /* MLAuthPickerViewController.xib */,
+				10757BCB20587C87007623FD /* Launch.storyboard */,
+				9C3AB0BA20C8BBE600761CA7 /* Synchronizer.swift */,
+				9C3AB0BC20C8BE1A00761CA7 /* ApiHelper.swift */,
+				9C3AB0BE20CA03F700761CA7 /* gradientButtonExtension.swift */,
+				9C3AB0C020CA07B300761CA7 /* hexColorExtension.swift */,
+				9CE20FA020DFEBA40086A685 /* FilterViewController.swift */,
+				9CE20FA420E251FF0086A685 /* Filters.swift */,
+				9CE20FA620E2522A0086A685 /* FilterValue.swift */,
+				9CE20FA820E401A20086A685 /* FilterCell.swift */,
+				9CE20FAA20E414E60086A685 /* FilterValueCell.swift */,
+				9CE20FAC20E455A30086A685 /* ActualFilters.swift */,
+				9CE20FAE20E4612F0086A685 /* ActiveFilterCell.swift */,
+			);
+			path = MeliMonitor;
+			sourceTree = "<group>";
+		};
+		EA4C05DDCFC0F51ABDFFA28A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00BCC7D76318C1CD28CB35B8 /* Pods_MeliMonitor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10FD8FD21F7E840800BCB991 /* MeliMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10FD8FE71F7E840800BCB991 /* Build configuration list for PBXNativeTarget "MeliMonitor" */;
+			buildPhases = (
+				3569CFE169248E2277FAB33F /* [CP] Check Pods Manifest.lock */,
+				10FD8FCF1F7E840800BCB991 /* Sources */,
+				10FD8FD01F7E840800BCB991 /* Frameworks */,
+				10FD8FD11F7E840800BCB991 /* Resources */,
+				10A1818620607B4900133918 /* ShellScript */,
+				FEEE273D902D9435443E556F /* [CP] Embed Pods Frameworks */,
+				2CF3BD9C01906BCA9BD5E3DA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeliMonitor;
+			productName = MeliMonitor;
+			productReference = 10FD8FD31F7E840800BCB991 /* MeliMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10FD8FCB1F7E840800BCB991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Ibrahim Ulukaya";
+				TargetAttributes = {
+					10FD8FD21F7E840800BCB991 = {
+						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 10FD8FCE1F7E840800BCB991 /* Build configuration list for PBXProject "MeliMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10FD8FCA1F7E840800BCB991;
+			productRefGroup = 10FD8FD41F7E840800BCB991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10FD8FD21F7E840800BCB991 /* MeliMonitor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10FD8FD11F7E840800BCB991 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10894A831F86C41C00F30A2C /* Amaranth-Bold.otf in Resources */,
+				9C119B5A20C070C800DA7264 /* credentials.plist in Resources */,
+				10E1DB2D1F84106F001CDB18 /* MLAuthPickerViewController.xib in Resources */,
+				10FD8FE01F7E840800BCB991 /* Assets.xcassets in Resources */,
+				10757BCC20587C87007623FD /* Launch.storyboard in Resources */,
+				10FD8FDE1F7E840800BCB991 /* Main.storyboard in Resources */,
+				9C119B5820BFAB7C00DA7264 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10A1818620607B4900133918 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"";
+		};
+		2CF3BD9C01906BCA9BD5E3DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor-resources.sh",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GINInviteResources.bundle",
+				"${PODS_ROOT}/FirebaseInvites/Resources/GPPACLPickerResources.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseFacebookAuthUI.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/FirebaseUI/FirebaseGoogleAuthUI.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GINInviteResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GPPACLPickerResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseFacebookAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/FirebaseGoogleAuthUI.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3569CFE169248E2277FAB33F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeliMonitor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEEE273D902D9435443E556F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleAPIClientForREST/GoogleAPIClientForREST.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Hue/Hue.framework",
+				"${BUILT_PRODUCTS_DIR}/ImagePicker/ImagePicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleAPIClientForREST.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hue.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImagePicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MeliMonitor/Pods-MeliMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10FD8FCF1F7E840800BCB991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CBABDBB20C70A1B0076CA3F /* WebViewController.swift in Sources */,
+				9C3AB0BD20C8BE1A00761CA7 /* ApiHelper.swift in Sources */,
+				9CE20FA720E2522A0086A685 /* FilterValue.swift in Sources */,
+				9CBABDBD20C70A1B0076CA3F /* MrMainSearchViewController.swift in Sources */,
+				9CBABDB820C70A1B0076CA3F /* HotItemCollectionViewCell.swift in Sources */,
+				9CE20FAB20E414E60086A685 /* FilterValueCell.swift in Sources */,
+				9CE20FAD20E455A30086A685 /* ActualFilters.swift in Sources */,
+				9CBABDC120C70B960076CA3F /* MLResponse.swift in Sources */,
+				9C9760EB20E53E7600B12808 /* UIImage+Circle.swift in Sources */,
+				10E1DB2C1F84106F001CDB18 /* MLAuthPickerViewController.swift in Sources */,
+				9CBABDB320C70A1B0076CA3F /* HotItemsCollectionViewController.swift in Sources */,
+				9CBABDBF20C70B930076CA3F /* Item.swift in Sources */,
+				9C3AB0BB20C8BBE600761CA7 /* Synchronizer.swift in Sources */,
+				10FD8FD71F7E840800BCB991 /* AppDelegate.swift in Sources */,
+				9CE20FA920E401A20086A685 /* FilterCell.swift in Sources */,
+				9CBABDB720C70A1B0076CA3F /* ImageLoad.swift in Sources */,
+				9CE20FA120DFEBA40086A685 /* FilterViewController.swift in Sources */,
+				9CE20FAF20E4612F0086A685 /* ActiveFilterCell.swift in Sources */,
+				9CBABDB920C70A1B0076CA3F /* MyListTableViewCell.swift in Sources */,
+				9CBABDBC20C70A1B0076CA3F /* ListTableViewCell.swift in Sources */,
+				9CBABDB620C70A1B0076CA3F /* MyListViewController.swift in Sources */,
+				9CBABDB420C70A1B0076CA3F /* VipViewController.swift in Sources */,
+				9C3AB0BF20CA03F700761CA7 /* gradientButtonExtension.swift in Sources */,
+				9C3AB0C120CA07B300761CA7 /* hexColorExtension.swift in Sources */,
+				9CE20FA520E251FF0086A685 /* Filters.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		10FD8FDC1F7E840800BCB991 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10FD8FDD1F7E840800BCB991 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10FD8FE51F7E840800BCB991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10FD8FE61F7E840800BCB991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10FD8FE81F7E840800BCB991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0382790E189F86B0DADD30FB /* Pods-MeliMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MeliMonitor/MeliMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MeliMonitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melimonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		10FD8FE91F7E840800BCB991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AB26A905C095A0F84D7854C /* Pods-MeliMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = MeliMonitor/MeliMonitor.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "$(SRCROOT)/MeliMonitor/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = melimonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10FD8FCE1F7E840800BCB991 /* Build configuration list for PBXProject "MeliMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FD8FE51F7E840800BCB991 /* Debug */,
+				10FD8FE61F7E840800BCB991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10FD8FE71F7E840800BCB991 /* Build configuration list for PBXNativeTarget "MeliMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10FD8FE81F7E840800BCB991 /* Debug */,
+				10FD8FE91F7E840800BCB991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10FD8FCB1F7E840800BCB991 /* Project object */;
+}
